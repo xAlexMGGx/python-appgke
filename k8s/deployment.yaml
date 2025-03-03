@@ -12,8 +12,6 @@ spec:
       labels:
         app: python-appgke
     spec:
-      imagePullSecrets:
-        - name: gcr-json-key
       containers:
       - name: python-appgke
         image: gcr.io/icai2025/python-appgke:latest
